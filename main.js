@@ -62,3 +62,23 @@ let raiz 1 = raizQuadrada(numero1)
 let raiz 2 = raizQuadrada(numero2)
 
 console.log(raiz1, raiz2)
+
+
+
+
+
+
+function boasVindas(nome, idade) {
+  return `
+          Seja bem-vindo, ${nome}
+          ${nome}, você é muito especial!
+          Parabéns pelo seu aniversário de ${idade} anos.
+  }
+  
+  let nome = prompt("Digite seu nome:")
+  let idade = prompt("Digite sua idade:")
+  let mensagem = boasVindas(nome, idade)
+  
+  alert(mensagem)
+  console.log(mensagem)
+  
