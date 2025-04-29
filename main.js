@@ -43,3 +43,22 @@ raizQuadrada(numero1)
 potenciacao(numero1, numero2)
 multiplicacao(numero2, numero1)
 
+
+
+
+function multiplicacao(valor1, valor2) {
+ return valor1 * valor2
+}
+
+function multiplicacao(valor1, valor2) {
+  return valor1 * valor2
+ }
+ 
+
+let numero1 = Number(prompt("digite o numero 1:"))
+let numero2 = Number(prompt("digite o numero 2:"))
+
+let raiz 1 = raizQuadrada(numero1)
+let raiz 2 = raizQuadrada(numero2)
+
+console.log(raiz1, raiz2)
